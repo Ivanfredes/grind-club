@@ -3,47 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRIN CLUB | Ofertas</title>
+    <title>GRIND CLUB | Ofertas</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Oswald:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
 
     <header class="header-principal">
         <a href="../index.html">
-           <figure>
-                <img src="./img/noimg.jpg" alt="Logo GRIN CLUB">
-                <figcaption>Logo tipo de la marca</figcaption>
-            </figure>
+            <img class="logo-img" src="../img/logo.png" alt="Logo GRIN CLUB">
         </a>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="ofertas.html">Ofertas</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+            <ul class="lista-nav">
+                <li><a class="enlace-nav" href="../index.html">Inicio</a></li>
+                <li><a class="enlace-nav" href="productos.html">Productos</a></li>
+                <li><a class="enlace-nav" href="ofertas.html">Ofertas</a></li>
+                <li><a class="enlace-nav" href="nosotros.html">Nosotros</a></li>
+                <li><a class="enlace-nav" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="contenido-principal">
-        <h1>Ofertas y Combos</h1>
+        <h1 class="titulo-principal">Ofertas y Combos</h1>
 
-        <section>
-            <h2>Descuentos de Temporada</h2>
-            <p>Aprovecha nuestros combos completos armados y descuentos especiales en indumentaria y accesorios.</p>
-            <img src="../img/noimg.jpg" alt="Combo de skate completo en oferta">
+        <section class="seccion-destacada">
+            <h2 class="subtitulo-seccion">Descuentos de Temporada</h2>
+            <p class="texto-cuerpo">Aprovecha nuestros combos completos armados y descuentos especiales en indumentaria y accesorios.</p>
             
-            <h3>Pack Street Completo</h3>
-            <p>Incluye tabla, lija, trucks, ruedas y rulemanes listos para rodar.</p>
+            <article class="tarjeta-producto">
+                <h3 class="titulo-producto">Pack Street Completo</h3>
+                <p class="texto-cuerpo">Incluye tabla, lija, trucks, ruedas y rulemanes listos para rodar.</p>
+                <figure class="contenedor-imagen">
+                    <img class="imagen-destacada" src="../img/noimg.jpg" alt="Combo de skate completo en oferta">
+                    <figcaption class="pie-imagen">Combo de skate completo en oferta</figcaption>
+                </figure>
+            </article>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-principal">
         <p>© 2026 GRIN CLUB Skateshop. Todos los derechos reservados.</p>
-        <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">TikTok</a></li>
-            <li><a href="#">YouTube</a></li>
+        <ul class="lista-redes">
+            <li><a class="enlace-red" href="#">Instagram</a></li>
+            <li><a class="enlace-red" href="#">TikTok</a></li>
+            <li><a class="enlace-red" href="#">YouTube</a></li>
         </ul>
     </footer>
 

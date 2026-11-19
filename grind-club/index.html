@@ -3,44 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRIN CLUB | Inicio</title>
+    <title>GRIND CLUB | Inicio</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Oswald:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
 
     <header class="header-principal">
         <a href="index.html">
-            <figure>
-                <img src="./img/noimg.jpg" alt="Logo GRIN CLUB">
-                <figcaption>Logo tipo de la marca</figcaption>
-            </figure>
+            <img class="logo-img" src="./img/logo.png" alt="Logo GRIN CLUB">
         </a>
         <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/productos.html">Productos</a></li>
-                <li><a href="pages/ofertas.html">Ofertas</a></li>
-                <li><a href="pages/nosotros.html">Nosotros</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
+            <ul class="lista-nav">
+                <li><a class="enlace-nav" href="index.html">Inicio</a></li>
+                <li><a class="enlace-nav" href="pages/productos.html">Productos</a></li>
+                <li><a class="enlace-nav" href="pages/ofertas.html">Ofertas</a></li>
+                <li><a class="enlace-nav" href="pages/nosotros.html">Nosotros</a></li>
+                <li><a class="enlace-nav" href="pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="contenido-principal">
-        <h1>GRIN CLUB SKATESHOP</h1>
+        <h1 class="titulo-principal">GRIN CLUB SKATESHOP</h1>
 
-        <section>
-            <h2>Cultura Street y Equipamiento Underground</h2>
-            <p>Bienvenido a GRIN CLUB. Encuentra las mejores tablas, hardware y ropa técnica diseñada para resistir el asfalto.</p>
-            <img src="./img/noimg.jpg" alt="Skater realizando un truco en la calle">
+        <section class="seccion-destacada">
+            <article>
+                <h2 class="subtitulo-seccion">Cultura Street y Equipamiento Underground</h2>
+                <p class="texto-cuerpo">Bienvenido a GRIN CLUB. Encuentra las mejores tablas, hardware y ropa técnica diseñada para resistir el asfalto.</p>
+                <figure class="contenedor-imagen">
+                    <img class="imagen-destacada" src="./img/noimg.jpg" alt="Skater realizando un truco en la calle">
+                    <figcaption class="pie-imagen">Skater realizando un truco en la calle</figcaption>
+                </figure>
+            </article>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-principal">
         <p>© 2026 GRIN CLUB Skateshop. Todos los derechos reservados.</p>
-        <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">TikTok</a></li>
-            <li><a href="#">YouTube</a></li>
+        <ul class="lista-redes">
+            <li><a class="enlace-red" href="#">Instagram</a></li>
+            <li><a class="enlace-red" href="#">TikTok</a></li>
+            <li><a class="enlace-red" href="#">YouTube</a></li>
         </ul>
     </footer>
 
